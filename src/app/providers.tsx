@@ -13,7 +13,7 @@ type Props = {
 const Providers = ({ children }: Props) => {
   const { store, persistor } = makeStore();
 
-  return (
+  return ( 
     <Provider store={store}>
       <PersistGate
         loading={
